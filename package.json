@@ -11,7 +11,7 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:elastic.tabstops.formatWithSpaces"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -30,9 +30,6 @@
             }
         ]
     },
-    "activationEvents": [
-        "onCommand:elastic.tabstops.formatWithSpaces"
-    ],
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
